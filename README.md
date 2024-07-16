@@ -5,8 +5,8 @@ This guide walks you through deploying a YOLOv5 model trained in WSL on a Raspbe
 The steps include converting the trained model to TorchScript and running inference on the Raspberry Pi.
 
 Prerequisites
-Hardware
-Raspberry Pi 4 Model B (4GB or 8GB recommended)
+- Hardware
+- Raspberry Pi 4 Model B (4GB or 8GB recommended)
 A microSD card with Raspberry Pi OS
 USB Camera (optional, for real-time inference)
 Software
