@@ -23,9 +23,10 @@ Install the necessary software on your Raspberry Pi:
 
     sh
 Copy code
-    sudo apt-get update
-    sudo apt-get install python3-pip
-    pip3 install torch torchvision opencv-python numpy
+-   sudo apt-get updatesu
+-   sudo apt-get install python3-pip
+-    pip3 install torch torchvision opencv-python numpy
+  
 3. Running Inference on the Raspberry Pi
 Copy the best.torchscript.pt model file to your Raspberry Pi. Create an inference script inference_rpi.py.
 
