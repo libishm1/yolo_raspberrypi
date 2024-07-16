@@ -1,6 +1,8 @@
-Deploying YOLOv5 Model using TorchScript on a Raspberry Pi
+Deploying YOLOv5 Model using TorchScript on a Raspberry Pi.
+
 Overview
-This guide walks you through deploying a YOLOv5 model trained in WSL on a Raspberry Pi. The steps include converting the trained model to TorchScript and running inference on the Raspberry Pi.
+This guide walks you through deploying a YOLOv5 model trained in WSL on a Raspberry Pi. 
+The steps include converting the trained model to TorchScript and running inference on the Raspberry Pi.
 
 Prerequisites
 Hardware
