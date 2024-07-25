@@ -58,11 +58,10 @@ chmod +x inference-rpi.py
 
   
 4. Running Inference on the Raspberry Pi
-Copy the best.torchscript.pt model file to your Raspberry Pi. Create an inference script inference_rpi.py.
 
 Running Inference
 To run inference, use the following command:
 
-    python3 inference_rpi.py --model best.torchscript.pt --image /path/to/input_image.jpg --output /path/to/output_image.jpg
+    python3 inference_rpi.py --model best.torchscript.pt --image metal55.jpg --output detected.jpg
 Conclusion
 You have now successfully deployed a YOLOv5 model using TorchScript on a Raspberry Pi. Adjust the confidence threshold and other parameters as needed to optimize the performance for your specific use case.
