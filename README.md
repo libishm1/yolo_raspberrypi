@@ -26,7 +26,13 @@ Copy code
 -   sudo apt-get updatesu
 -   sudo apt-get install python3-pip
 -    pip3 install torch torchvision opencv-python numpy
-  or
+
+   install necessary software,
+
+sudo apt-get update
+
+sudo apt-get install python3-pip
+
 -    sudo apt install python3-torch python3-torchvision python3-opencv python3-numpy
 
    3. Navigating to the correct directory
@@ -46,11 +52,6 @@ git clone https://github.com/libishm1/yolo_raspberrypi.git
 
 cd yolo_raspberrypi
 
-Install necessary software,
-
-sudo apt-get update
-
-sudo apt-get install python3-pip
 
 Give permission to the python script 
 
