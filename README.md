@@ -26,8 +26,41 @@ Copy code
 -   sudo apt-get updatesu
 -   sudo apt-get install python3-pip
 -    pip3 install torch torchvision opencv-python numpy
+  or
+-    sudo apt install python3-torch python3-torchvision python3-opencv python3-numpy
+
+   3. Navigating to the correct directory
+      
+sudo apt update
+sudo apt install git
+
+Make a path and clone to the directory
+
+cd home
+
+mkdir image_detection
+
+cd image_detection
+
+git clone https://github.com/libishm1/yolo_raspberrypi.git
+
+cd yolo_raspberrypi
+
+Install necessary software,
+
+sudo apt-get update
+
+sudo apt-get install python3-pip
+
+pip3 install torch torchvision opencv-python numpy
+
+
+Give permission to the python script 
+
+chmod +x inference-rpi.py
+
   
-3. Running Inference on the Raspberry Pi
+4. Running Inference on the Raspberry Pi
 Copy the best.torchscript.pt model file to your Raspberry Pi. Create an inference script inference_rpi.py.
 
 Running Inference
