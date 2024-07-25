@@ -52,9 +52,6 @@ sudo apt-get update
 
 sudo apt-get install python3-pip
 
-pip3 install torch torchvision opencv-python numpy
-
-
 Give permission to the python script 
 
 chmod +x inference-rpi.py
