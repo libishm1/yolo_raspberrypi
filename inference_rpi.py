@@ -63,7 +63,7 @@ for detection in detections:
         y2 = int((y + h/2) * img.shape[0])
         
         label = f'{class_names[cls]}: {class_conf:.2f}'
-        print(f"Detected: Class {class_names[cls]} with confidence {class_conf:.2f} at location {x1},{y1},{x2},{y2}")
+        print(f"Detected: {class_names[cls]} ({class_conf:.2f}) at [{x1}, {y1}, {x2}, {y2}]")
         
         cv2.rectangle(img, (x1, y1), (x2, y2), (255, 0, 0), 2)
         cv2.putText(img, label, (x1, y1 - 10), cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 0, 0), 2)
